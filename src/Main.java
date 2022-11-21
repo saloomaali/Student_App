@@ -64,6 +64,17 @@ public class Main {
                         }
                     }
                     break;
+
+                case 4 :
+                    System.out.println("Enter the admission number");
+                    String admsnNo2 = input.next();
+                    for (Student stud : sarr){
+                        if(admsnNo2.equals(stud.admsnNO)){
+
+                            sarr.remove(stud);
+                        }
+                    }
+                    break;
             }
 
     }}
