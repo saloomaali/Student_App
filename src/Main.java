@@ -38,6 +38,14 @@ public class Main {
 
                     Student s = new Student(name, rollNo, admsnNo, college);
                     sarr.add(s);
+                    break;
+
+                case 2 :
+                    System.out.println("List of students");
+                    for (Student stud : sarr){
+                        System.out.println(stud.name);
+                    }
+                    break;
             }
 
     }}
