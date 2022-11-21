@@ -72,6 +72,7 @@ public class Main {
                         if(admsnNo2.equals(stud.admsnNO)){
 
                             sarr.remove(stud);
+                            break;
                         }
                     }
                     break;
