@@ -41,9 +41,27 @@ public class Main {
                     break;
 
                 case 2 :
-                    System.out.println("List of students");
+                    System.out.println("Student details");
                     for (Student stud : sarr){
                         System.out.println(stud.name);
+                        System.out.println(stud.rollNo);
+                        System.out.println(stud.admsnNO);
+                        System.out.println(stud.college);
+
+                    }
+                    break;
+
+                case 3 :
+                    System.out.println("Enter the admission number");
+                    String admsnNo1 = input.next();
+                    for(Student stud : sarr){
+                        if(admsnNo1.equals(stud.admsnNO)){
+                            System.out.println("Student with admission number " + admsnNo1 + "is " + stud.name);
+                            break;
+                        }
+                        else {
+                            System.out.println("No such student found");
+                        }
                     }
                     break;
             }
