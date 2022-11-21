@@ -56,7 +56,7 @@ public class Main {
                     String admsnNo1 = input.next();
                     for(Student stud : sarr){
                         if(admsnNo1.equals(stud.admsnNO)){
-                            System.out.println("Student with admission number " + admsnNo1 + "is " + stud.name);
+                            System.out.println("Student with admission number " + admsnNo1 + " is " + stud.name);
                             break;
                         }
                         else {
@@ -75,6 +75,13 @@ public class Main {
                         }
                     }
                     break;
+
+                case 5 :
+                    System.out.println("You are exiting from the program");
+                    System.exit(0);
+
+                default:
+                    System.out.println("choose a valid option");
             }
 
     }}
