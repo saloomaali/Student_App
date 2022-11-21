@@ -1,3 +1,9 @@
+
+class Student{
+    String name;
+
+
+}
 public class Main {
     public static void main(String[] args) {
 
